@@ -1,0 +1,48 @@
+/* Grover */
+/* Your existing CSS styles */
+
+/* Add new CSS styles for FAQ items */
+.faq-item {
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: left;
+    position: relative;
+  }
+  
+  .faq-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .answer {
+    display: none;
+  }
+  
+  .faq-item.active {
+    background-color: #e0e0e0;
+  }
+  
+  /* Adjusted CSS for QuestionComponent.js */
+  .ques {
+    color: aqua;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  
+  .q {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .faq-item.active {
+    margin-bottom: 20px;
+  }
+  
+  /* Add styles to show answer when faq-item is active */
+  .answer.active {
+    display: block;
+  }
+  
